@@ -1,0 +1,11 @@
+package com.capgemini.consumer;
+
+import javax.jms.Connection;
+import javax.jms.ConnectionFactory;
+
+public class Main {
+	public static void main(String[] args) {
+		ConnectionFactory connectionFactory;
+		Connection connection = null;
+	}
+}

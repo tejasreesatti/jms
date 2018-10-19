@@ -1,0 +1,29 @@
+package com.capgemini.consumer;
+
+import javax.jms.Connection;
+import javax.jms.ConnectionFactory;
+import javax.jms.JMSException;
+import javax.naming.NamingException;
+
+public class Main {
+	public static void main(String[] args) {
+		ConnectionFactory connectionFactory;
+		Connection connection = null;
+	
+	try {
+		
+		
+	}
+	catch (NamingException e) {
+	e.printStackTrace();
+	} catch (JMSException e) {
+	e.printStackTrace();
+	}finally {
+		if (connection != null) try {
+			connection.close();
+		} catch (JMSException e) {
+		e.printStackTrace();
+		}
+}
+	}
+}
